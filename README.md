@@ -7,6 +7,7 @@
 Install a skill, your agent gets better. Climb the levels, *you* get better.
 Copy-paste ready. Tested. Not a link farm.
 
+[![npm](https://img.shields.io/npm/v/skillpacks-cli.svg)](https://www.npmjs.com/package/skillpacks-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-7-blue.svg)](#-the-catalog)
 [![Levels](https://img.shields.io/badge/levels-beginner%20%E2%86%92%20expert-8a2be2.svg)](#-the-catalog)
