@@ -8,7 +8,7 @@ Install a skill, your agent gets better. Climb the levels, *you* get better.
 Copy-paste ready. Tested. Not a link farm.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-5-blue.svg)](#-the-catalog)
+[![Skills](https://img.shields.io/badge/skills-7-blue.svg)](#-the-catalog)
 [![Levels](https://img.shields.io/badge/levels-beginner%20%E2%86%92%20expert-8a2be2.svg)](#-the-catalog)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -54,9 +54,14 @@ Climb from the bottom. Get comfortable with a level, then level up.
 | Skill | Fixes |
 |-------|-------|
 | [**check-the-docs**](skills/intermediate/check-the-docs) | Agent invents plausible-but-fake API calls from memory |
+| [**test-first**](skills/intermediate/test-first) | Agent "fixes" a bug with no test and it quietly comes back |
 
-### 🔴 Expert — *coming next*
-Spec-driven development, safe multi-file refactors, security passes, and more. [Suggest one →](CONTRIBUTING.md)
+### 🔴 Expert — *advanced workflows*
+| Skill | Fixes |
+|-------|-------|
+| [**refactor-safely**](skills/expert/refactor-safely) | A "harmless cleanup" silently changes behavior and breaks prod |
+
+*More expert skills landing soon: spec-driven development, security passes, subagent patterns. [Suggest one →](CONTRIBUTING.md)*
 
 ## How to use a skill
 
