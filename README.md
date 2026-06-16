@@ -13,6 +13,10 @@ Copy-paste ready. Tested. Not a link farm.
 [![Levels](https://img.shields.io/badge/levels-beginner%20%E2%86%92%20expert-8a2be2.svg)](#-the-catalog)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+<br>
+
+<img src="assets/demo.gif" alt="Add a skill to your coding agent with one command" width="820">
+
 </div>
 
 ---
