@@ -1,0 +1,47 @@
+{
+  "name": "skillpacks-cli",
+  "version": "0.2.0",
+  "description": "Install drop-in skills for Claude Code, Codex, and any coding agent — one command. The CLI for the Skillpacks curriculum.",
+  "bin": {
+    "skillpacks": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node bin/cli.js list >/dev/null && echo ok"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-md",
+    "anthropic",
+    "codex",
+    "cursor",
+    "ai-agents",
+    "coding-agent",
+    "skills",
+    "claude-skills",
+    "agent-skills",
+    "llm",
+    "prompt-engineering",
+    "developer-tools",
+    "cli"
+  ],
+  "homepage": "https://github.com/buildmoonshot/skillpacks#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildmoonshot/skillpacks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buildmoonshot/skillpacks/issues"
+  },
+  "author": "buildmoonshot",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}

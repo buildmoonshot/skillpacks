@@ -31,12 +31,11 @@ Never used a "skill" or a `CLAUDE.md` before? You're exactly who the Beginner pa
 - **How do I use one?** Pick a skill below → copy its `SKILL.md` into `.claude/skills/<name>/` → done. Your agent now follows it.
 
 ```bash
-# Example: add your first skill
-mkdir -p .claude/skills/explain-as-you-go
-cp skills/beginner/explain-as-you-go/SKILL.md .claude/skills/explain-as-you-go/
+# Add your first skill — one command, nothing to install
+npx skillpacks-cli add explain-as-you-go
 ```
 
-> 🛠️ **One-command installer** (`npx skillpacks add <skill>`) lands in **v0.2**. For now it's a copy-paste — which also means you can read exactly what you're adding. No magic.
+That drops the skill into `.claude/skills/` and your agent picks it up automatically. Want to see what you're getting first? Every skill is a plain file you can also copy by hand — see [How to use a skill](#how-to-use-a-skill).
 
 ## 📚 The catalog
 
@@ -65,7 +64,15 @@ Climb from the bottom. Get comfortable with a level, then level up.
 
 ## How to use a skill
 
-**As a Claude Code skill** (auto-loaded, used when relevant):
+**The easy way — the CLI** (nothing to install, runs via `npx`):
+```bash
+npx skillpacks-cli list                  # browse everything
+npx skillpacks-cli add surgical-edits    # add one skill
+npx skillpacks-cli add beginner          # add a whole level pack
+```
+Skills land in `./.claude/skills/`, which Claude Code loads automatically.
+
+**By hand** (if you'd rather copy the file yourself):
 ```bash
 mkdir -p .claude/skills/<name>
 cp skills/<level>/<name>/SKILL.md .claude/skills/<name>/
