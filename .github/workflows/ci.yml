@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate skill catalog
+        run: node scripts/validate.js
+
+      - name: Smoke-test the CLI
+        run: |
+          node bin/cli.js list
+          node bin/cli.js add surgical-edits
+          test -f .claude/skills/surgical-edits/SKILL.md && echo "CLI add: OK"
+          node bin/cli.js add beginner
+          test -f .claude/skills/verify-before-done/SKILL.md && echo "CLI add pack: OK"

@@ -7,6 +7,7 @@
 Install a skill, your agent gets better. Climb the levels, *you* get better.
 Copy-paste ready. Tested. Not a link farm.
 
+[![CI](https://github.com/buildmoonshot/skillpacks/actions/workflows/ci.yml/badge.svg)](https://github.com/buildmoonshot/skillpacks/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/skillpacks-cli.svg)](https://www.npmjs.com/package/skillpacks-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-13-blue.svg)](#-the-catalog)
