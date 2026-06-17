@@ -34,11 +34,6 @@ Enter
 Show
 
 Sleep 800ms
-Type "npx skillpacks-cli list"
-Sleep 500ms
-Enter
-Sleep 3s
-
 Type "npx skillpacks-cli add surgical-edits"
 Sleep 500ms
 Enter
@@ -47,4 +42,9 @@ Sleep 2500ms
 Type "npx skillpacks-cli add beginner"
 Sleep 500ms
 Enter
-Sleep 4s
+Sleep 3s
+
+Type "ls .claude/skills"
+Sleep 500ms
+Enter
+Sleep 3s

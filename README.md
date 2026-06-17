@@ -9,7 +9,7 @@ Copy-paste ready. Tested. Not a link farm.
 
 [![npm](https://img.shields.io/npm/v/skillpacks-cli.svg)](https://www.npmjs.com/package/skillpacks-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-10-blue.svg)](#-the-catalog)
+[![Skills](https://img.shields.io/badge/skills-13-blue.svg)](#-the-catalog)
 [![Levels](https://img.shields.io/badge/levels-beginner%20%E2%86%92%20expert-8a2be2.svg)](#-the-catalog)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -50,8 +50,9 @@ Climb from the bottom. Get comfortable with a level, then level up.
 | Skill | Fixes |
 |-------|-------|
 | [**explain-as-you-go**](skills/beginner/explain-as-you-go) | Agent hands you code you don't understand — start here if you're learning |
-| [**ask-dont-assume**](skills/beginner/ask-dont-assume) | Agent guesses at a vague request and builds the wrong thing |
-| [**plan-then-build**](skills/beginner/plan-then-build) | Agent dives in on a vague request and builds the wrong thing |
+| [**ask-dont-assume**](skills/beginner/ask-dont-assume) | Agent silently picks one reading of an ambiguous request |
+| [**plan-then-build**](skills/beginner/plan-then-build) | Agent dives into a big task and builds the wrong approach |
+| [**read-before-edit**](skills/beginner/read-before-edit) | Agent edits code it never read and breaks a hidden caller |
 | [**surgical-edits**](skills/beginner/surgical-edits) | Agent changes code you didn't ask it to touch |
 | [**verify-before-done**](skills/beginner/verify-before-done) | Agent says "Fixed! ✅" without actually checking |
 
@@ -61,14 +62,16 @@ Climb from the bottom. Get comfortable with a level, then level up.
 | [**check-the-docs**](skills/intermediate/check-the-docs) | Agent invents plausible-but-fake API calls from memory |
 | [**test-first**](skills/intermediate/test-first) | Agent "fixes" a bug with no test and it quietly comes back |
 | [**commit-hygiene**](skills/intermediate/commit-hygiene) | Agent dumps unrelated edits into one vague "update" commit |
+| [**keep-it-simple**](skills/intermediate/keep-it-simple) | Agent builds a configurable framework when you asked for a function |
 
 ### 🔴 Expert — *advanced workflows*
 | Skill | Fixes |
 |-------|-------|
 | [**refactor-safely**](skills/expert/refactor-safely) | A "harmless cleanup" silently changes behavior and breaks prod |
 | [**security-pass**](skills/expert/security-pass) | Agent ships injection, a leaked secret, or a missing auth check |
+| [**spec-driven-development**](skills/expert/spec-driven-development) | Agent codes a big feature first, hits the design wall, rewrites |
 
-*More landing soon: spec-driven development, subagent patterns, performance passes. [Suggest one →](CONTRIBUTING.md)*
+*More landing soon: subagent patterns, performance passes, dependency hygiene. [Suggest one →](CONTRIBUTING.md)*
 
 ## How to use a skill
 
