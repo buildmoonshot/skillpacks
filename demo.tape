@@ -39,10 +39,10 @@ Sleep 500ms
 Enter
 Sleep 2500ms
 
-Type "npx skillpacks-cli add beginner"
+Type "npx skillpacks-cli add gis"
 Sleep 500ms
 Enter
-Sleep 3s
+Sleep 3500ms
 
 Type "ls .claude/skills"
 Sleep 500ms

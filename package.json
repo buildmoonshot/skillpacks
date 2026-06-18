@@ -1,7 +1,7 @@
 {
   "name": "skillpacks-cli",
-  "version": "0.2.0",
-  "description": "Install drop-in skills for Claude Code, Codex, and any coding agent — one command. The CLI for the Skillpacks curriculum.",
+  "version": "0.3.0",
+  "description": "Install drop-in skill packs for Claude Code, Codex, and any coding agent — by discipline (software engineering, GIS), one command. The CLI for Skillpacks.",
   "bin": {
     "skillpacks": "bin/cli.js"
   },
