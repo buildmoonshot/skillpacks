@@ -47,6 +47,10 @@ Organized by **discipline**, each beginner → expert. Install a whole disciplin
 
 ### 🛠️ engineering — *make any agent a better software engineer*
 
+> Install the whole pack: **`npx skillpacks-cli add engineering`**
+
+<img src="assets/engineering.gif" alt="Installing the engineering pack with one command" width="720">
+
 | Skill | Level | Fixes |
 |-------|-------|-------|
 | [**explain-as-you-go**](skills/engineering/beginner/explain-as-you-go) | beginner | Agent hands you code you don't understand — start here if you're learning |
@@ -64,6 +68,10 @@ Organized by **discipline**, each beginner → expert. Install a whole disciplin
 | [**spec-driven-development**](skills/engineering/expert/spec-driven-development) | expert | Agent codes a big feature first, hits the design wall, rewrites |
 
 ### 🗺️ gis — *spatial work, written by an actual GIS professional*
+
+> Install the whole pack: **`npx skillpacks-cli add gis`**
+
+<img src="assets/gis.gif" alt="Installing the GIS pack with one command" width="720">
 
 | Skill | Level | Fixes |
 |-------|-------|-------|
